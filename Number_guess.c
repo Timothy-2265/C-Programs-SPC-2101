@@ -6,11 +6,13 @@ Description:Number guessing program
 #include <stdio.h>
 int main()
 {
+	//variables decraration
 	int secret_number;
-	int attempts=0;
+	int attempts=0;//start
 	int guess;
 	int start_number;
-	
+
+	//prompt the user to enter starting number
 	printf("Enter start_number\n");
 	printf("The number should be between 10-20\n");
 	scanf("%d",&start_number);
@@ -18,15 +20,17 @@ int main()
 		printf("Invalid");
 	}
 	
-	secret_number=start_number-3;
+	secret_number=start_number-3;//simple formular to get the secret number
 	
-	while(guess !=secret_number)
+	while(guess !=secret_number)//stop
 	{
+		//prompt user to enter the guess number
 		printf("Enter your guess :\n");
 		scanf("%d",&guess);
-		attempts++;
+		attempts++;//increment
 		
-		
+
+		//condition
 		if (guess>secret_number){
 			printf("Too high\n");
 		}
@@ -43,4 +47,5 @@ int main()
 	}
 	
 	return 0;
+
 }
