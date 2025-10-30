@@ -17,7 +17,7 @@ int main() {
         for (int floor = 0; floor < 5; floor++) {
             int occupied = 0, vacant = 0;
             for (int room = 0; room < 10; room++) {
-                // Generate automatic values: 1 or 0
+                
                 chain[branch][floor][room] = (branch + floor + room) % 2;
 
                 if (chain[branch][floor][room] == 1)
@@ -36,4 +36,5 @@ int main() {
 
     return 0;
 }
+
 
