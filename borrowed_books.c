@@ -1,6 +1,6 @@
 /*Name:Timothy Kahuki
 Reg no:CT101/G/26459/25
-Date:30/10/2025
+Date:6/11/2025
 Description:open file for borrowed books
 */
 #include <stdio.h>
@@ -23,4 +23,5 @@ int main()
 	printf("Title of the book written to borrowed books file");
 
 	return 0;
+
 }
