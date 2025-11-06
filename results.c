@@ -1,6 +1,6 @@
 /*Name:Timothy Kahuki
 Reg no:CT101/G/26459/25
-Date:30/10/2025
+Date:6/11/2025
 Description:results
 */
 #include <stdio.h>
@@ -29,3 +29,4 @@ int main()
 	return 0;
 
 }
+
