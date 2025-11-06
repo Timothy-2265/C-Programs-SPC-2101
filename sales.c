@@ -1,7 +1,7 @@
 /*Name:Timothy Kahuki
 Reg no:CT101/G/26459/25
-Date:30/10/2025
-Description:open file for borrowed books
+Date:6/11/2025
+Description:sales
 */
 #include <stdio.h>
 
@@ -18,4 +18,5 @@ int main()
 	
 	fclose(fptr);
 	return 0;
+
 }
