@@ -1,7 +1,7 @@
 /*Name:Timothy Kahuki
 Reg no:CT101/G/26459/25
 Date:30/10/2025
-Description:open file for borrowed books
+Description:results
 */
 #include <stdio.h>
 struct Student {
@@ -27,4 +27,5 @@ int main()
 	fclose(fptr);
 	
 	return 0;
+
 }
