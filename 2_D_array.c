@@ -3,6 +3,7 @@ Reg no:CT101/G/26459/25
 Date:30/10/2025
 Description:Two D array
 */
+
 #include <stdio.h>
 
 int main() {
@@ -29,5 +30,4 @@ int main() {
 
     return 0;
 }
-
-         
+    
